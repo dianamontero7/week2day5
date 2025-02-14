@@ -1,0 +1,100 @@
+body {
+    background-color: #fdfbe9;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: brown;
+}
+
+#navbuttons ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+    
+    
+}
+
+#navbuttons ul li {
+    border-color: brown;
+    border-width: small;
+   border-style: solid;
+   padding: 0 10px;
+   margin-bottom: -13px;
+    padding-top: 5px;
+   
+}
+
+
+#navbuttons ul li a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    font-size: larger;
+    padding: 0 50px;
+   
+    
+}
+
+#header {
+    max-width: 100%;
+}
+
+#header img {
+  width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+#welcome {
+   margin-bottom: 30px;
+   padding-top: 20px;
+}
+
+#main p {
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+line-height: 25px;
+
+
+}
+
+
+#socialicons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#socialicons a {
+    
+margin: 15px;
+  
+}
+
+/* media quieries */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #navbuttons {
+        display: visible;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...}
+
+
+*/
